@@ -1,0 +1,58 @@
+Task 1. Binary anagram
+There are 1000 lines in the anagram.txt file. Each line contains a binary number,
+consisting of a maximum of 14 digits: 0 or 1. Each number begins with a one and none of them are repeated.
+
+Note: The example.txt file contains 100 lines of matching sample data task conditions. The answers for the data in the example.txt file are provided below the content tasks.
+
+Task 1.1.
+A binary number is called balanced when it contains the same number of zeros and ones,
+almost balanced when the number of ones differs from the number of zeros by 1.
+
+Example:
+The number 101010 is a balanced number.
+The number 1011010 is an almost balanced number.
+State how many balanced binary numbers there are and how many almost binary numbers there are
+balanced in the anagram.txt file.
+For data from the file example.txt, the correct answer is:
+21
+15
+
+Task 1.2.
+Digital anagrams are numbers made up of the same set of digits arranged in different ones
+orders. The first digit of the number cannot be zero.
+Example:
+The number 209 written in decimal can be used to create 4 anagrams: 209, 902, 290, 920.
+The binary number 11100 can be used to create 6 different anagrams: 10011, 10101, 10110,
+11001, 11010, 11100.
+Find all such 8-digit binary numbers in the file anagram.txt from which you can
+create the largest number of anagrams. List these numbers in the order they appear
+in the anagram.txt file.
+For data from the file example.txt, the correct answer is:
+10001011
+10111000
+10100111
+11111000
+10011100
+11100011
+10111010
+10100011
+10011010
+10110001
+11011010
+
+Task 1.3.
+Give the greatest absolute value of the difference between adjacent numbers (that is, numbers saved in adjacent lines, e.g. 1 and 2 lines, 2 and 3 lines, etc.) in the file anagram.txt. Give this value in binary notation.
+For data from the file example.txt, the correct answer is:
+1110001010
+
+
+Task 1.4.
+Replace all binary numbers in the anagram.txt file with their system equivalents decimal. Then from the resulting decimal numbers:
+a) state how many numbers there are that do not contain the digit zero
+b) give the number that has the largest sum of different digits (if numbers that have the same,
+the largest sum of different digits is more than one - give the one that appears as first in the data file).
+Example:
+For the number 20462, the sum of its different digits is 12 (2+0+4+6), for the number 344, the sum of its different digits is 7.
+For data from the file example.txt, the correct answer is:
+81
+895
